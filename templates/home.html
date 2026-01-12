@@ -127,7 +127,7 @@
                     {{ skill.category }}
                 </h3>
                 <ul class="space-y-2">
-                    {% for item in skill.items %}
+                    {% for item in skill.items() %}
                     <li class="flex items-start gap-2 text-slate-400 text-sm">
                         <i class="fas fa-check text-blue-500 mt-1 text-xs"></i>
                         <span>{{ item }}</span>
